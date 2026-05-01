@@ -1,18 +1,19 @@
 {
   "name": "back-senati",
   "version": "1.0.0",
-  "description": "Proyecto backend SENATI",
+  "description": "First App NodeJS",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "author": "Edgar Ramirez",
-  "license": "ISC",
+  "private": true,
   "dependencies": {
-    "express": "^4.22.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.0"
+    "nodemon": "^3.1.14"
   }
 }
