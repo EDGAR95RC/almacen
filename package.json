@@ -2,13 +2,13 @@
   "name": "back-senati",
   "version": "1.0.0",
   "description": "First App NodeJS",
-  "main": "dist/index.js",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/server.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/server.js"
   },
   "author": "Edgar Ramirez",
   "private": true,
